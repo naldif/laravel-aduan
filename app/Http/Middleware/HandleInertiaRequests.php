@@ -2,8 +2,10 @@
 
 namespace App\Http\Middleware;
 
-use Illuminate\Http\Request;
 use Inertia\Middleware;
+use Tightenco\Ziggy\Ziggy;
+use Illuminate\Http\Request;
+use App\Http\Resources\UserSharedResource;
 
 class HandleInertiaRequests extends Middleware
 {
